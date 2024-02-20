@@ -1,0 +1,22 @@
+:root {
+  /* variables of colors */
+  --primary-clr-light: #ffffff;
+  --primary-clr-dark: #363738;
+  --secondary-clr-1: #fefaf1;
+  --secondary-clr-2: #f5f5f5;
+  --secondary-clr-3: #db4444;
+
+  /* text colors */
+  --text-clr-light: #fafafa;
+  --text-clr-grey: #7d8184;
+  --text-clr-dark: #000000;
+
+  /* button && card */
+  --btn-card-bg: #000000;
+
+  /* accent colors */
+  --btn-clr-primary: #00ff66;
+  --btn-clr-secondary: #db4444;
+  --btn-hover-primary: #e07575;
+  --btn-hover-secondary: #eb5757;
+}
