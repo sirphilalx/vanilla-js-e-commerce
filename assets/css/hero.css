@@ -1,0 +1,54 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.hero > .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1170px;
+  padding-top: 40px;
+}
+
+.category {
+  border-right: 1px solid #000000;
+  padding-right: 30px;
+}
+
+.category > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 217px;
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+}
+.category > ul > li {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.category > ul > li > span {
+  width: 7.78px;
+  height: 12.73px;
+  /* border: 1px solid red; */
+}
+
+.category > ul > li > span > img {
+  width: 100%;
+  height: 100%;
+}
+
+.heroImage > img {
+  height: 344px;
+  width: 892px;
+}
+
+.card {
+  width: 270px;
+  height: 350px;
+}

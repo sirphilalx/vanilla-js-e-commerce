@@ -19,4 +19,25 @@
   --btn-clr-secondary: #db4444;
   --btn-hover-primary: #e07575;
   --btn-hover-secondary: #eb5757;
+
+  --ff-1: "Poppins", sans-serif;
+  --ff-2: "Inter", sans-serif;
+  --fw-100: 300;
+  --fw-200: 400;
+  --fw-300: 500;
+  --fw-400: 600;
+  --fw-500: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 450px) {
+  .wrapper {
+    width: 1170px;
+    text-align: center;
+  }
 }
