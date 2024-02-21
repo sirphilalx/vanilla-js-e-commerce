@@ -1,0 +1,25 @@
+.cardImage > .cardMain > .cardIconsImages > .BSP-cardIcons > * {
+  height: 34px;
+  width: 34px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.cardImage > .cardMain > .cardIconsImages > .BSP-cardIcons {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: baseline;
+  position: relative;
+}
+
+.BSP-categories > .wrapper {
+  display: grid;
+  align-items: center;
+  justify-content: left;
+  padding-top: 40px;
+  width: 1170px;
+}

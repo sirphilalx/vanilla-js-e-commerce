@@ -1,0 +1,29 @@
+.BSP-categories {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.BSP-categories > .wrapper {
+  display: grid;
+  align-items: center;
+  justify-content: left;
+  padding-top: 40px;
+  width: 1170px;
+}
+
+.categoriesTitle > .bottomRight > button {
+  width: 159px;
+  height: 56px;
+  background-color: #db4444;
+  color: white;
+  border: none;
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  font-weight: medium;
+}
+.categoriesTitle > .bottomRight > button:hover {
+  background-color: #e07575;
+}

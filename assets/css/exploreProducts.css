@@ -1,0 +1,58 @@
+.pricesStack > .rating {
+  display: flex;
+  gap: 10px;
+}
+
+/* .EPS-cardIcons {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: -50px;
+} */
+
+.sectionBody {
+  flex-wrap: wrap;
+}
+
+.dot {
+  display: flex;
+}
+
+.color {
+  height: 12px;
+  width: 12px;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+.black {
+  background-color: black;
+}
+
+.red {
+  background-color: red;
+}
+
+.cardImage > .cardMain > .cardAccents,
+.cardImage > .cardMain > .cardIconsImages {
+  height: 100%;
+}
+
+.cardImage > .cardMain > .cardAccents > p,
+.cardImage > .cardMain > .cardIconsImages > .cardIcons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  align-items: baseline;
+}
+
+.cardImage > .cardMain > .cardAccents > p {
+  width: 55px;
+  height: 26px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: #00ff66;
+}
