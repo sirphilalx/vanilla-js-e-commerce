@@ -1,0 +1,43 @@
+.ups {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ups > .wrapper {
+  width: 943px;
+  display: flex;
+  justify-content: space-between;
+  margin-block: 200px;
+  align-items: center;
+  text-align: center;
+}
+
+.ups_item {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+
+.ups_item > img {
+  width: 80px;
+  height: 80%;
+}
+.ups_item > .ups_itemDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.ups_itemDesc > h3 {
+  font-weight: semibold;
+  font-size: 20px;
+  font-family: "poppins", sans-serif;
+  text-transform: uppercase;
+}
+.ups_itemDesc > p {
+  font-weight: regular;
+  font-size: 14px;
+  font-family: "poppins", sans-serif;
+}
