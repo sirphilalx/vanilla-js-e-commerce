@@ -27,11 +27,8 @@
   font-weight: 500px;
   font-size: 110px;
   line-height: 115px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
   margin-bottom: 50px;
+  margin-left: 200px;
 }
 
 .story_error p {
@@ -41,6 +38,7 @@
   line-height: 24px;
   text-align: center;
   margin-bottom: 100px;
+  margin-left: 100px;
 }
 
 a {
