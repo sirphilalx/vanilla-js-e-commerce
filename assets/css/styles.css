@@ -1,0 +1,10 @@
+.change {
+  width: 100px; /* Adjust thumbnail size as needed */
+  height: 100px;
+  margin-right: 10px; /* Add margin between thumbnails */
+  cursor: pointer;
+}
+
+#largeImage {
+  max-width: 100%; /* Ensure image fits within container */
+}
