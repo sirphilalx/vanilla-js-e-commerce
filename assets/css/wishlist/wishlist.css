@@ -1,0 +1,54 @@
+.BSP-categorieswl > .wrapper {
+  display: grid;
+  align-items: center;
+  justify-content: left;
+  padding-top: 40px;
+  width: 1170px;
+}
+
+.categoriesHeaderwl {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+}
+.categoriesHeaderwl > .accent-header::before {
+  content: "";
+  width: 20px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #db4444;
+  margin-right: 0;
+}
+.categoriesHeaderwl > .accent-headerwl::before {
+  content: "A";
+  width: 20px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #db4444;
+  color: #db4444;
+  margin-right: 16px;
+}
+.categoriesHeaderwl > p {
+  color: inherit;
+  font-family: "poppins", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+}
+.categoriesHeaderwl > .categoriesTitle {
+  width: fit-content;
+}
+.categoriesHeaderwl > .categoriesTitle > .bottomRight {
+  width: 223px;
+}
+.categoriesHeaderwl > .categoriesTitle > .bottomRight > button {
+  color: inherit;
+  background-color: transparent;
+  border: 0.5px solid black;
+  width: 100%;
+}
+.categoriesHeaderwl > .categoriesTitle > .bottomRight > button:hover {
+  color: white;
+  background-color: black;
+  border: 0.5px solid black;
+  width: 100%;
+}

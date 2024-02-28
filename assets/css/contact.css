@@ -1,0 +1,134 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > .wrapper {
+  display: grid;
+  align-items: center;
+  width: 1170px;
+  padding-top: 40px;
+}
+
+.container > .wrapper > main {
+  width: 1170px;
+  padding-bottom: 40px;
+}
+
+.container > .wrapper > main > .breadcrumbs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+section.contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftSide {
+  width: 340px;
+  padding: 20px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.leftWrapper-firstItem,
+.leftWrapper-secondItem {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.leftWrapper-firstItem {
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+
+.leftWrapper-firstItem > .title,
+.leftWrapper-secondItem > .title {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftWrapper-firstItem > .title > h2,
+.leftWrapper-secondItem > .title > h2 {
+  margin-bottom: 24px;
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  font-weight: medium;
+}
+.leftWrapper-firstItem > p,
+.leftWrapper-secondItem > p {
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+}
+
+.rightSide {
+  width: 800px;
+  border-radius: 4px;
+  border: 1px solid black;
+  padding: 24px;
+}
+
+.rightSide > form > .form-control > input,
+.rightSide > form > textarea {
+  background-color: #f5f5f5;
+  border: none;
+  padding: 16px;
+}
+
+.rightSide > form {
+  display: grid;
+  gap: 32px;
+  justify-content: space-between;
+}
+.rightSide > form > .form-control {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+.rightSide > form > .form-control > input {
+  width: 235px;
+}
+
+.rightSide > form > textarea {
+  width: 100%;
+}
+
+.rightSide > form > textarea::placeholder,
+.rightSide > form > .form-control > input::placeholder {
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+}
+
+.rightSide > form > .btn {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  width: 100%;
+}
+
+.rightSide > form > .btn > button {
+  background-color: #db4444;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 12px 32px;
+  border-radius: 4px;
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+}
+
+.rightSide > form > .btn > button:hover {
+  background-color: #e07575;
+}

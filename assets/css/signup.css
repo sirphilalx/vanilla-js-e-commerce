@@ -1,0 +1,108 @@
+.whole {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-block: 100px;
+}
+
+.loginDetails {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.loginDetails > .login > .form > .title > h1 {
+  font-family: "inter", sans-serif;
+  font-size: 36px;
+  font-weight: medium;
+  margin-bottom: 24px;
+}
+.loginDetails > .login > .form > .title > p {
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 48px;
+}
+form {
+  display: grid;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+.formInput {
+  width: 370px;
+}
+.formInput > input {
+  width: 100%;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.5);
+  padding-block: 8px;
+}
+
+.formInput > input::placeholder {
+  color: grey;
+}
+
+.buttonGroup {
+  display: grid;
+  gap: 40px;
+  align-items: center;
+}
+
+.buttonGroup > button,
+.buttonGroups > button,
+.buttonGroup > .googleSignUp {
+  width: 100%;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  height: 56px;
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+.buttonGroups {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttonGroups > button {
+  width: 143px;
+}
+.buttonGroup > button,
+.buttonGroups > button {
+  background-color: #db4444;
+  color: white;
+}
+
+.buttonGroup > .googleSignUp {
+  border: 0.5px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonGroups > .googleSignUps {
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #db4444;
+}
+
+.buttonGroup > .googleSignUp > button {
+  background-color: transparent;
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  margin-bottom: 32px;
+  height: 100%;
+  display: flex;
+  align-items: end;
+}
+
+.buttonGroupText {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+  justify-content: center;
+}
