@@ -42,8 +42,20 @@
             <a href="#">ShopNow</a>
           </div>
           <div class="lang">
-            <p>English</p>
+            <p class="dropbtn" id="myDropdown">English</p>
             <img src="./assets/images/DropDown.png" alt="" />
+            <div class="dropdown-content" id="myDropdownContent">
+              <ul>
+                <li onclick="changeDropdown('English')">English</li>
+                <li onclick="changeDropdown('spanish')">spanish</li>
+                <li onclick="changeDropdown('french')">french</li>
+                <li onclick="changeDropdown('Turkish')">Turkish</li>
+                <li onclick="changeDropdown('Xhosa')">Xhosa</li>
+                <li onclick="changeDropdown('Turkish')">Turkish</li>
+                <li onclick="changeDropdown('Togo')">Togo</li>
+                <li onclick="changeDropdown('Russia')">Russia</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -435,5 +447,7 @@
     </footer>
     <!-- footer end -->
     <script src="./assets/JS/cart.js"></script>
+
+    <script src="./assets/JS/dropdown.js"></script>
   </body>
 </html>
