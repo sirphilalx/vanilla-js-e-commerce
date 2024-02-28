@@ -50,7 +50,8 @@
   gap: 87px;
   align-items: end;
 }
-.sectionHeaderTitle > .left > h3 {
+.sectionHeaderTitle > .left > h3,
+.sectionHeaderTitle > .left > #countdown {
   font-family: sans-serif;
   font-size: 32px;
 }
