@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./assets/css/categories.css" />
     <link rel="stylesheet" href="./assets/css/ups.css" />
     <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/cart/cart.css">
     <link rel="stylesheet" href="./assets/css/bsp.css" />
     <link rel="stylesheet" href="./assets/css/bestProducts.css" />
     <link rel="stylesheet" href="./assets/css/midPageHero.css" />
@@ -83,82 +84,103 @@
     </nav>
     <!-- nav end -->
 
-    <!-- footer start -->
-    <footer>
-      <div class="wrapper">
-        <div class="firstFooterItem">
-          <div class="footerItem">
-            <div class="logo"><p>Exclusive</p></div>
-            <p class="sub">Subscribe</p>
-            <p class="discount">Get 10% off your first order</p>
-            <div class="input">
-              <input type="text" placeholder="Enter your email" />
-              <img src="./assets/images/icon-send.png" alt="" />
-            </div>
-          </div>
-          <div class="footerItem">
-            <h3>Support</h3>
-            <ul>
-              <li>
-                111 Bijoy sarani, Dhaka, <br />
-                DH 1515, Bangladesh.
-              </li>
-              <li>exclusive@gmail.com</li>
-              <li>+88015-88888-9999</li>
-            </ul>
-          </div>
-          <div class="footerItem">
-            <h3>Account</h3>
-            <ul>
-              <li>My Account</li>
-              <li>Login / Register</li>
-              <li>Cart</li>
-              <li>Wishlist</li>
-              <li>Shop</li>
-            </ul>
-          </div>
-          <div class="footerItem">
-            <h3>Quicklink</h3>
-            <ul>
-              <li>Privacy Policy</li>
-              <li>Terms of Use</li>
-              <li>FAQ</li>
-              <li>Contact</li>
-            </ul>
-          </div>
-          <div class="footerItem">
-            <h3>Download App</h3>
-            <h6>Save $3 with App New User Only</h6>
-            <div class="footerImages">
-              <img src="./assets/images/Qr_Code.png" alt="" />
-              <div class="downloads">
-                <div class="android">
-                  <img
-                    src="./assets/images/google-play-store-logo-google-play-app-store-android-wallets-text-label-logo.png"
-                    alt=""
-                  />
-                </div>
-                <div class="ios">
-                  <img src="./assets/images/appstore.png" alt="" />
-                </div>
-              </div>
-            </div>
-            <div class="socials">
-              <img src="./assets/images/fb.png" alt="" />
-              <img src="./assets/images/x.png" alt="" />
-              <img src="./assets/images/instagram.png" alt="" />
-              <img src="./assets/images/linkedin.png" alt="" />
-            </div>
-          </div>
-        </div>
-        <div class="secondFooterItem">
-          &copy;
-          <p>Copyright Rimel 2022. All right reserved</p>
-        </div>
+
+    <!-- form Quazeem start -->
+    <div class="cart">
+      <div class="title">
+          <p><a href="index.html" class="home">Home</a> / <span>Cart</span></p>
       </div>
-    </footer>
-    <!-- footer end -->
+
+      <div class="main_content">
+          <div class="sec_1">
+              <p class="first">Product</p>
+              <p class="second">Price</p>
+              <p class="Third">Quantity</p>
+              <p class="Fourth">Subtotal</p>
+          </div>
+
+
+
+          <!-- <div class="sec_2">
+              <div class="image_cont">
+                  <img src="image/Frame 613.jpg" alt="">
+                  <p>LCD Monitor</p>
+              </div>
+
+              <p class="first">$650</p>
+
+              <div class="Num" id="input">
+                  <input type="number">
+              </div>
+              <p class="third">$0</p>
+          </div>
+
+
+          <div class="sec_3">
+              <div class="image_cont">
+                  <img src="image/Frame 612.jpg" alt="">
+                  <p>HI Gamepad</p>
+              </div>
+
+              <p class="first">$550</p>
+
+              <div class="Num">
+                  <input type="number">
+              </div>
+              <p class="third">$0</p>
+          </div> -->
+
+
+
+
+          <div class="All">
+              <div class="sec_4">
+                  <a href="#"><button>Return To Shop</button></a>
+                  <a href="#"><button id="clearAll">Update Cart</button></a>
+              </div>
+
+
+
+
+
+              <div class="sec_5">
+                  <div class="update">
+                      <input type="text" placeholder="Coupon Code">
+                      <a href="#"><button>Update Cart</button></a>
+                  </div>
+
+                  <div class="rank">
+                      <h3>Cart Total</h3>
+
+                      <div class="subtotal" id="subtotal">
+                          <p>Subtotal</p>
+                          <p id="subtotal">$0</p>
+                      </div>
+
+                      <div class="shipping">
+                          <p>shipping</p>
+                          <p>Free</p>
+                      </div>
+
+                      <div class="Total" id="total">
+                          <p>Total</p>
+                          <p id="total">$0</p>
+                      </div>
+
+                      <div class="rank_btn">
+                          <button>Process to checkout</button>
+                      </div>
+
+
+                  </div>
+              </div>
+          </div>
+      </div>
+    <!-- form Quazeem end -->
+
+
 
     <script src="./assets/JS/dropdown.js"></script>
+    <script src="assets/JS/cart/cart.js"></script>
   </body>
 </html>
